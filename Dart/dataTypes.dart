@@ -1,46 +1,52 @@
-void main(){
-  
+void main() {
   // Printing
   print('This is a printing example...');
-  
+
   // DataTypes
   // String, int, double
-  String myString='This is a string...';
+  String myString = 'This is a string...';
   print(myString);
-  
-  int myInt= 25;
+
+  int myInt = 25;
   print(myInt);
-  
-  double myDouble =25.6;
+
+  double myDouble = 25.6;
   print(myDouble);
-  
+
   // Variable Overriding
-  myString='This is a overrided string...';
+  myString = 'This is a overrided string...';
   print(myString);
-  
+
   // var & dynamic
-  var myVar='This is a var...';
+  var myVar = 'This is a var...';
   print(myVar);
-  
-  myVar='123'; // For overriding, datatype should be same
+
+  myVar = '123'; // For overriding, datatype should be same
   print(myVar);
-  
-  dynamic myDynamic='This s dynamic...';
+
+  dynamic myDynamic = 'This s dynamic...';
   print(myDynamic);
-  
-  myDynamic=123;
+
+  myDynamic = 123;
   print(myDynamic);
-  
+
   // List
-  List<int> myList= [1,2,3,4,5];
+  List<int> myList = [1, 2, 3, 4, 5];
   print(myList);
   print(myList[4]);
-  
+
   // Real-time Exmaple of overriding
-  var password='12345678';
+  var password = '12345678';
   print(password);
-  
-  password='22OCT'; // For overriding, datatype should be same
+
+  password = '22OCT'; // For overriding, datatype should be same
   print(password);
-  
+
+  // Map
+  Map<String, String> myMap = {
+    'Name': 'Usama Sarwar',
+    'Age': '27',
+    'Gender': 'Male',
+  };
+  print(myMap);
 }
