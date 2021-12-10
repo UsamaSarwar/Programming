@@ -9,6 +9,22 @@ void main(List<String> args) {
   } else {
     print('$a is less than $b');
   }
+
+  // Switch statement Syntax
+  int x = 15;
+  switch (x) {
+    case 10:
+      print('x is 10');
+      break;
+    case 20:
+      print('x is 20');
+      break;
+    case 30:
+      print('x is 30');
+      break;
+    default:
+      print('x is not 10, 20, or 30');
+  }
 }
 
 /// Assignment
