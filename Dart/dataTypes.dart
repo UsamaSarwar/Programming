@@ -31,9 +31,9 @@ void main() {
   print(myDynamic);
 
   // List
-  List<int> myList = [1, 2, 3, 4, 5];
+  List<int> myList = [56, 542, 33, 34, 55];
   print(myList);
-  print(myList[4]);
+  print(myList[3]);
 
   // Real-time Exmaple of overriding
   var password = '12345678';
@@ -48,5 +48,5 @@ void main() {
     'Age': '27',
     'Gender': 'Male',
   };
-  print(myMap);
+  print(myMap['Age']);
 }
