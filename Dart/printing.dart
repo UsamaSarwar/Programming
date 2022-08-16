@@ -1,8 +1,10 @@
 main(){
   /// Printing Samples
-  print(786);
-  print(true);
-  print('U'); // Character
+  print(786); // int
+  print(786.00); // double
+  print(true); // bool
+  print([1,2,3]); // List
+  print({'name':'Usama Sarwar', 'age': 30}); //Map
   print("\n"); // New Line
   print("Usama Sarwar");
   print("Lead Developer\n"); // New Line
