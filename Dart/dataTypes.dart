@@ -1,10 +1,26 @@
+/// Naming Variable Rules
+/// [-] var
+/// [-] Var (Not-Recommended)
+/// [-] var123
+/// [-] var_var
+/// [-] var_123
+/// [-] var123var
+/// [-] varVar
+/// [x] 12var
+/// [x] var var
+/// [x] $var
+/// [x] var&
+/// [x] int (Identifiers and Reserved Keywords)
+/// Reserved Keywords: const, int, String, double, Map, List, bool, if, else, for, var, dynamic, final, class and so on...
+
 void main() {
   // Printing
   print('This is a printing example...');
 
   // DataTypes
   // String, int, double
-  String myString = 'This is a string...';
+  String myString; // Decleration
+  myString = 'This is a string...'; // Assignment / Initialization
   print(myString);
 
   int myInt = 25;
@@ -14,7 +30,7 @@ void main() {
   print(myDouble);
 
   // Variable Overriding
-  myString = 'This is a overrided string...';
+  myString = 'This is an overrided string...';
   print(myString);
 
   // var & dynamic
@@ -43,10 +59,10 @@ void main() {
   print(password);
 
   // Map
-  Map<String, String> myMap = {
+  Map<String, dynamic> myMap = {
     'Name': 'Usama Sarwar',
-    'Age': '27',
+    'Age': 27,
     'Gender': 'Male',
   };
-  print(myMap['Age']);
+  print(myMap['Name']);
 }
