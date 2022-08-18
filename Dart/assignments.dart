@@ -31,3 +31,10 @@ main() {
 /// Check student percentage and grade by obtaining total markets and obtained marks
 
 
+/// Assignment 4
+/// Write a program that has 3 variables, a, b, c.
+/// If a is greater than b and c, print a.
+/// If b is greater than a and c, print b.
+/// If c is greater than a and b, print c.
+/// If a, b, and c are equal, print "All are equal".
+/// If a, b, and c are not equal, print "All are not equal".
