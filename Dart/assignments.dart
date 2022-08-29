@@ -1,6 +1,6 @@
 /// Assignment 1
 /// Print ['Usama Sarwar"] on the console that's within the brackets
-print('\'Usama Sarwar');
+// print('\'Usama Sarwar');
 
 
 /// Assignment 2
