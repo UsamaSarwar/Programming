@@ -1,6 +1,6 @@
 main(){
-  String username ='usamaa';
-  String password= '7866';
+  String username ='usama';
+  String password= '786';
   
   if(username == 'usama' && password == '786'){
     
@@ -10,7 +10,7 @@ main(){
     
     if (username != 'usama'){
       
-      print('User doesn\'t exisit...');
+      print('User doesn\'t exist...');
       
     }else{
       
