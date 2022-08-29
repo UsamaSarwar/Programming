@@ -25,6 +25,5 @@ main() {
       password = stdin.readLineSync()!;
       isValid = false;
     }
- 
   } while (!isValid);
 }
