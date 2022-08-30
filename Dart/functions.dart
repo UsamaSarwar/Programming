@@ -1,26 +1,29 @@
-/// Functions in Dart
-/// Input --> Processing --> Output
+/// Functions
 
-double calculateAreaOfCircle({required double radius}) {
-  return 3.14 * radius * radius;
+/// Function Syntax
+helloWorldFunction() {
+  print('Hello, World!');
+  print('Hello, World!');
+  print('Hello, World!');
+  print('Hello, World!');
+  print('Hello, World!');
 }
 
-double calculateAreaOfRectangle(double length, double breadth) {
-  return length * breadth;
+/// int -> Return Type
+/// int a, int b -> Parameters (Inputs)
+int customSum(int a, int b) {
+  // Unnamed parameters
+  return a + b + 1;
 }
 
-/// Named Paremeters
-double _calculateAreaOfRectangle({required double length, required double breadth}) {
-  return length * breadth;
-}
-
-void printSomething(){
-  print("Hello World");
+int customSumNamed({required int a, required int b}) {
+  int c = a + b + 1;
+  return c;
 }
 
 void main(List<String> args) {
-  print('${calculateAreaOfCircle(radius:10)} meter square');
-  print('${calculateAreaOfRectangle(10, 20)} meter square');
-  print('${_calculateAreaOfRectangle(length: 10, breadth: 20)} meter square');
-  printSomething();
+  // helloWorldFunction();
+  print(customSum(2, 3));
+  print(customSumNamed(a: 5, b: 3));
+  print(customSumNamed(b: 6, a: 3));
 }
