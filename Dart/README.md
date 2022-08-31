@@ -52,3 +52,10 @@ Make a `login` Function as mentioned below
 ```dart
 login(username: admin, password: admin);
 ```
+
+## Assignment 6
+Make a class `Car` and make 5 car objects with the following properties:
+- Company
+- Color
+- Power
+- Average Milage
